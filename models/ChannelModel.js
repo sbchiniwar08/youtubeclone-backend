@@ -5,7 +5,6 @@ const privateVideo = new mongoose.Schema({
     title:{
         type: String,
         trim: true,
-        required:true,
         unique: true,
     },
     _id:{type:mongoose.SchemaTypes.ObjectId},
